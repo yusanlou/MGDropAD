@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C44582A51F90CC43000B9F84 /* MGDropAD.h in Headers */ = {isa = PBXBuildFile; fileRef = C44582A41F90CC43000B9F84 /* MGDropAD.h */; };
 		C44582A71F90CC43000B9F84 /* MGDropAD.m in Sources */ = {isa = PBXBuildFile; fileRef = C44582A61F90CC43000B9F84 /* MGDropAD.m */; };
-		C44582A91F90CC43000B9F84 /* MGDropAD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C44582A81F90CC43000B9F84 /* MGDropAD.podspec */; };
 		C44582B01F90CC43000B9F84 /* MGDropAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44582A11F90CC43000B9F84 /* MGDropAD.framework */; };
 		C44582B51F90CC43000B9F84 /* MGDropADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44582B41F90CC43000B9F84 /* MGDropADTests.m */; };
 		C44582C01F90CCA8000B9F84 /* CaptainHook.h in Headers */ = {isa = PBXBuildFile; fileRef = C44582BF1F90CCA8000B9F84 /* CaptainHook.h */; };
@@ -29,7 +28,6 @@
 		C44582A11F90CC43000B9F84 /* MGDropAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGDropAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44582A41F90CC43000B9F84 /* MGDropAD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGDropAD.h; sourceTree = "<group>"; };
 		C44582A61F90CC43000B9F84 /* MGDropAD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGDropAD.m; sourceTree = "<group>"; };
-		C44582A81F90CC43000B9F84 /* MGDropAD.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MGDropAD.podspec; sourceTree = "<group>"; };
 		C44582AA1F90CC43000B9F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C44582AF1F90CC43000B9F84 /* MGDropADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGDropADTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44582B41F90CC43000B9F84 /* MGDropADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGDropADTests.m; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				C44582BF1F90CCA8000B9F84 /* CaptainHook.h */,
 				C44582A41F90CC43000B9F84 /* MGDropAD.h */,
 				C44582A61F90CC43000B9F84 /* MGDropAD.m */,
-				C44582A81F90CC43000B9F84 /* MGDropAD.podspec */,
 				C44582AA1F90CC43000B9F84 /* Info.plist */,
 			);
 			path = MGDropAD;
@@ -190,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44582A91F90CC43000B9F84 /* MGDropAD.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +410,7 @@
 				C44582BB1F90CC43000B9F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44582BC1F90CC43000B9F84 /* Build configuration list for PBXNativeTarget "MGDropADTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +419,7 @@
 				C44582BE1F90CC43000B9F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
